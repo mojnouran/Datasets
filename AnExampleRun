@@ -1,0 +1,6 @@
+data = np.array([0.2, 0.5, 0.8])
+train_model(data, num_steps, alpha_bar, embedding_dim, epochs=100)
+noisy_data = forward_process(data, num_steps, beta)
+recovered_data = reverse_process(noisy_data, num_steps, beta, embedding_dim)
+print("Original data:", data)
+print("Recovered data:", recovered_data)
