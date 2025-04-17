@@ -24,15 +24,15 @@ This repository hosts every dataset underpinning my current (and in‑review) pa
 
 ### ECG‑3  (`ECG_3.csv`)
 - **Source:** ISLab — internal benchmark (link coming)  
-- **Task:** 3‑class heartbeat classification  
+- **Task:** Regression 
 - **Rows × Cols:** 3 747 × 3 (+ label)  
-- **Download:** `[URL‑to‑be‑added]`
+
 
 ### ECG‑5  (`ECG_5.csv`)
 - **Source:** ISLab — internal benchmark  
-- **Task:** 5‑class heartbeat classification  
+- **Task:** Regression 
 - **Rows × Cols:** 3 745 × 5 (+ label)  
-- **Download:** `[URL‑to‑be‑added]`
+
 
 ### ETTh1 / ETTh2  (`ETTh1.csv`, `ETTh2.csv`)
 Long‑horizon transformer‑oil‑temperature forecasting sets introduced by Zhou et al. (2021). Each file contains 17 420 hourly records of six electrical variables; the prediction target is **OT** (oil temperature).
